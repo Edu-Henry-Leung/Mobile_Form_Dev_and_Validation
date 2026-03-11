@@ -126,6 +126,7 @@ export default function SignIn() {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
+    paddingTop: StatusBar.currentHeight,
     backgroundColor: "#D6E8F5",
   },
 
